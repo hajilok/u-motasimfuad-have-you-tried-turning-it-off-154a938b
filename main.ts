@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// Championship single-line reply selected via multi-round blind pairwise evaluation.
+// Round-2 rank-defense champion selected via dual-panel blind pairwise evaluation.
 const ENTRY_LINE =
-  'Oh, the stranger on your baby monitor is coming through clearly? Awesome\u2014that rules out a speaker issue!';
+  "I'd love to escalate this\u2014just let it wipe one more drive while I screen-record so it counts as a pattern!";
 
 function validateLine(line: string): string {
   if (line.includes('\n') || line.includes('\r')) {
